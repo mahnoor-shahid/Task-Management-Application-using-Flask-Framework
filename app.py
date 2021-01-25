@@ -5,6 +5,8 @@ from datetime import datetime
 # general convention for initializing any flask app
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///test.db'
+app.config['SECRET_KEY'] = 'mahnoor'
+
 db = SQLAlchemy(app)
 
 class Todo(db.Model):
