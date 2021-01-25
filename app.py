@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request, redirect
 from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
+from forms import SignUp_Form
 
 # general convention for initializing any flask app
 app = Flask(__name__)
@@ -65,6 +66,10 @@ def update(id):
     else:
         return render_template('update.html', task=task)
 
+@app.route('/signup')
+def sign_up():
+    form = SignUp_Form()
+    return render_template('signup.html', form=form)
 
 if __name__ == "__main__":
     app.run(debug=True)
