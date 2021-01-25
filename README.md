@@ -17,16 +17,12 @@ This project implements a basic structure of a web application created using Fla
 Files can be opened using any tool that supports the .py, .html, .css format. For example, VSCode or PyCharm
 
 # Environment
-click==7.1.2
-Flask==1.1.2
-Flask-SQLAlchemy==2.4.4
-gunicorn==20.0.4
-itsdangerous==1.1.0
-Jinja2==2.11.2
-MarkupSafe==1.1.1
-SQLAlchemy==1.3.22
-Werkzeug==1.0.1
- 
- # Created By
- **Mahnoor Shahid** - Initial work
- - Linkedin Profile - https://www.linkedin.com/in/mahnoor-v20399/
+- click==7.1.2
+- Flask==1.1.2
+- Flask-SQLAlchemy==2.4.4
+- gunicorn==20.0.4
+- itsdangerous==1.1.0
+- Jinja2==2.11.2
+- MarkupSafe==1.1.1
+- SQLAlchemy==1.3.22
+- Werkzeug==1.0.1
